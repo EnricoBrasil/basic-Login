@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 main{
     display: flex;
     justify-content: center;
@@ -12,6 +13,7 @@ main{
 
 form{
     background-color: aqua;
+    border-radius: 20px;
     text-align: center;
     width: 45rem;
     height: 40rem;
@@ -23,15 +25,21 @@ form h1{
 
 .form-Login{
     justify-content: center;
-    background-color: green;
+    /* background-color: green; */
     height: 25rem;
     padding-top: 8rem;
+}
+.form-Login button{
+    font-size: 20px;
+    width: 8rem;
+    border-radius: 30px;
+    margin-top: 2rem;
 }
 
 
 .login{
     margin-bottom: 25px;
-    background-color: grey;
+    /* background-color: grey; */
     font-size: 25px;
 }
 .login input{
@@ -45,6 +53,6 @@ form h1{
 }
 
 .senha{
-    background-color: burlywood;
+    /* background-color: burlywood; */
     font-size: 25px;
 }
